@@ -1,0 +1,81 @@
+.first {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  position: relative;
+}
+
+.first01 p {
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
+
+.about,
+.blog01,
+.about03 {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  margin: 60px;
+}
+
+.about02 {
+  text-align: center;
+  margin: 60px;
+}
+
+.blog {
+  display: inline block;
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.pic01,
+.pic02,
+.pic03 {
+  width: 70%;
+}
+
+.pic_frame {
+  display: inline-block;
+}
+
+.btn01,
+.btn02 {
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  margin: 60px;
+}
+
+.btn01 {
+  color: black;
+  background-color: gray;
+}
+
+.btn02 {
+  color: #fff;
+  background-color: rgb(85, 187, 187);
+}
